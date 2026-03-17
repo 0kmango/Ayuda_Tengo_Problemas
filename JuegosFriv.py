@@ -153,7 +153,7 @@ def juego_de_memoria():
         input("Presiona Enter para continuar...")
         print("\n" * 50)
         respuesta = input("Repite la secuencia: ").strip()
-        if respuesta != " ".join(map(str, secuencia)):
+        if respuesta != "".join(map(str, secuencia)):
             print(f"¡Incorrecto! La secuencia era: {' '.join(map(str, secuencia))}")
             break
         print("¡Correcto! La secuencia continúa...\n")
